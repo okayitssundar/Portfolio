@@ -1,0 +1,219 @@
+:root {
+  --primary: #000814;
+  --secondary: #ffc300;
+  --primaryButton: #001d3d;
+  --secondaryButton: #003566;
+  --accent: #fffbe5;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+#App {
+  margin: 2rem;
+}
+#Home,
+#Skills,
+#Contact,
+#About {
+  scroll-margin-top: 7.5rem;
+}
+.glass {
+  backdrop-filter: saturate(180%) blur(10px);
+}
+.b-shadow {
+  -webkit-box-shadow: 0px -19px 121px -18px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px -19px 121px -18px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px -19px 121px -18px rgba(0, 0, 0, 0.57);
+}
+.accent {
+  color: var(--accent) !important;
+}
+.primary {
+  color: var(--primary) !important;
+}
+.primarybg {
+  background-color: var(--primary) !important;
+}
+.dropdown-menu {
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 29px 0px rgba(0, 0, 0, 0.75);
+  background-color: var(--primary) !important;
+}
+.dropdown-item:hover {
+  background-color: var(--primaryButton) !important;
+}
+
+.navbar-toggler,
+.navbar .navbar-toggler:focus {
+  color: var(--secondary);
+  border-color: var(--secondary) !important;
+}
+.secondary {
+  color: var(--secondary) !important;
+}
+.primaryButton {
+  background-color: var(--primaryButton);
+  color: var(--accent);
+}
+.secondaryButton {
+  background-color: var(--secondaryButton);
+  color: var(--accent);
+}
+.active {
+  border-bottom: 2px solid var(--secondary) !important;
+}
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 0px solid #000000;
+}
+.fadeTransition {
+  transition: 0.6s !important;
+}
+.opacity-0 {
+  opacity: 0 !important;
+}
+.opacity-1 {
+  opacity: 0.2 !important;
+}
+.opacity-2 {
+  opacity: 0.4 !important;
+}
+.opacity-3 {
+  opacity: 0.6 !important;
+}
+.opacity-4 {
+  opacity: 0.8 !important;
+}
+.opacity-5 {
+  opacity: 1 !important;
+}
+.fadeTransition:hover {
+  -webkit-box-shadow: 0px 0px 27px -1px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 27px -1px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 27px -1px rgba(0, 0, 0, 1);
+  transform: scale(1.02) !important;
+}
+.brightborder {
+  border-radius: 20px;
+  border: 0.01px solid var(--accent);
+}
+.brightbackground {
+  background-color: rgba(197, 197, 197, 0.11) !important;
+}
+.scroll-to-top {
+  position: fixed;
+  z-index: 1;
+  bottom: 25px;
+  right: 25px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.text-fill-transparent {
+  -webkit-text-fill-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+}
+.form-control {
+  background-color: rgba(140, 140, 140, 0.1);
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+}
+.form-control:not(active) {
+  color: red;
+}
+
+.form-control:focus {
+  background-color: rgba(140, 140, 140, 0.1);
+  color: white;
+}
+footer.nb-footer {
+  background: rgba(0, 0, 0, 0.3);
+}
+footer.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1170px;
+  text-align: center;
+}
+footer.nb-footer .about p {
+  font-size: 13px;
+  color: var(--accent);
+  margin-top: 30px;
+}
+footer.nb-footer .about .social-media {
+  margin-top: 15px;
+}
+footer.nb-footer .about .social-media ul li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  background: var(--secondary);
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+footer.nb-footer .about .social-media ul li a:hover {
+  background: transparent;
+  color: var(--secondary);
+
+  border-color: var(--accent);
+}
+
+footer.nb-footer .copyright {
+  margin-top: 15px;
+  background: #111;
+  padding: 7px 0;
+  color: #999;
+}
+footer.nb-footer .copyright p {
+  margin: 0;
+  padding: 0;
+}
+
+.fs-0 {
+  font-size: 2.8rem;
+}
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fit-contain {
+  object-fit: contain;
+}

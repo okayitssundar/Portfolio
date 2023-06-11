@@ -1,0 +1,89 @@
+{
+  "Header": {
+    "Title": "Sundar Prakash",
+    "Favicon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  "Drawer": {
+    "BrandName": ["Sundar", "Prakash"],
+    "NavItems": ["Home", "About", "Skills", "Contact"],
+    "ResumeLink": ""
+  },
+  "Home": {
+    "Avatar": "https://w0.peakpx.com/wallpaper/133/138/HD-wallpaper-sasuke-uchiha-electric-blue-magenta-boruto-naruto-next-generation-anime-anas-ahmed-edits-naruto-boruto-sasuke-susanoo.jpg",
+    "Greetings": "Hi, I'm Sundar 👋",
+    "Description": "I'm a passionate web developer with expertise in front-end development and UI/UX design. I love crafting beautiful and intuitive user experiences that make a difference.",
+    "ButtonText": "Learn More"
+  },
+  "About": {
+    "Description": "I have a strong background in computer science and several years of professional experience in web development. I am proficient in various technologies and frameworks, including HTML5, CSS3, JavaScript, and React.js. My goal is to create high-quality, scalable, and performant web applications that meet the clients' needs.",
+    "Timeline": [
+      {
+        "Time": "2018 - 2020",
+        "Title": "Web Developer Intern",
+        "Description": "Worked on various web development projects, collaborating with a team of developers and designers. Gained hands-on experience in front-end development, responsive design, and web optimization techniques."
+      },
+      {
+        "Time": "2020 - Present",
+        "Title": "Full Stack Developer",
+        "Description": "Currently working as a full stack developer, responsible for designing, developing, and maintaining web applications. Involved in all stages of the development process, from requirements gathering to deployment."
+      },
+      {
+        "Time": "2016 - 2018",
+        "Title": "Computer Science Student",
+        "Description": "Pursued a Bachelor's degree in Computer Science, focusing on software development, algorithms, and data structures. Developed a solid foundation in programming principles and problem-solving skills."
+      }
+    ]
+  },
+  "Skills": [
+    {
+      "ImageUrl": "path/to/skill1.jpg",
+      "Title": "HTML5",
+      "Description": "Proficient in writing semantic HTML markup and ensuring accessibility and cross-browser compatibility. Familiar with the latest HTML5 features and best practices.",
+      "ButtonText": "View Projects",
+      "ButtonLink": "#html-projects"
+    },
+    {
+      "ImageUrl": "path/to/skill2.jpg",
+      "Title": "CSS3",
+      "Description": "Strong knowledge of CSS3 and modern CSS frameworks. Skilled in creating responsive layouts, animations, and styling web applications to deliver an exceptional user experience.",
+      "ButtonText": "View Projects",
+      "ButtonLink": "#css-projects"
+    },
+    {
+      "ImageUrl": "path/to/skill3.jpg",
+      "Title": "JavaScript",
+      "Description": "Extensive experience in JavaScript and its frameworks/libraries like React.js and Vue.js. Proficient in writing clean, modular, and maintainable code to implement complex functionality.",
+      "ButtonText": "View Projects",
+      "ButtonLink": "#javascript-projects"
+    },
+    {
+      "ImageUrl": "path/to/skill4.jpg",
+      "Title": "React.js",
+      "Description": "Skilled in building responsive and interactive web applications using React.js. Experienced in working with React components, state management, and integrating external APIs.",
+      "ButtonText": "View Projects",
+      "ButtonLink": "#react-projects"
+    }
+  ],
+  "Footer": {
+    "ImageUrl": "path/to/footer-image.png",
+    "Description": "Welcome to my portfolio website! Here, you'll find a showcase of my projects, skills, and experience in the field of web development. Feel free to explore and get in touch if you have any questions or inquiries.",
+    "SocialMedia": [
+      {
+        "Title": "Instagram",
+        "Icon": "path/to/instagram-icon.png",
+        "Link": "https://www.instagram.com/your_instagram_account"
+      },
+      {
+        "Title": "Linkedin",
+        "Icon": "path/to/linkedin-icon.png",
+        "Link": "https://www.linkedin.com/in/your_linkedin_profile"
+      },
+      {
+        "Title": "Github",
+        "Icon": "path/to/github-icon.png",
+        "Link": "https://github.com/your_github_username"
+      }
+    ],
+    "Copyright": "Sundar Prakash. All rights reserved."
+  }
+}
