@@ -24,7 +24,7 @@ function Home({ data }) {
             theme().secondary
           } 100%)`,
         }}
-        class="py-1 fs-0 accent text-fill-transparent text-center"
+        class="py-1 accent text-fill-transparent text-center"
       >
         {data().Home.Description}
       </h1>

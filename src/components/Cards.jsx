@@ -49,7 +49,9 @@ export default function Cards(props) {
         </Show>
         <Show when={ButtonText}>
           <Button
-            onClick={(`location.href =${addProtocol(ButtonLink)}`, "_blank")}
+            onClick={() => {
+              window.open(addProtocol(ButtonLink), "_blank");
+            }}
             class="primaryButton"
           >
             {ButtonText}

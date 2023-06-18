@@ -17,6 +17,31 @@ body {
   background-color: var(--primary);
   color: var(--secondary);
 }
+::-moz-selection {
+  /* Code for Firefox */
+  color: var(--primary);
+  background: var(--secondary);
+}
+
+::selection {
+  color: var(--primary) !important;
+  background: var(--secondary);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+
 #App {
   margin: 2rem;
 }
@@ -62,8 +87,13 @@ body {
   color: var(--secondary) !important;
 }
 .primaryButton {
+  border: 1px solid var(--secondary) !important;
   background-color: var(--primaryButton);
   color: var(--accent);
+}
+.primaryButton:hover {
+  background-color: var(--secondary);
+  color: var(--primary);
 }
 .secondaryButton {
   background-color: var(--secondaryButton);
@@ -185,9 +215,6 @@ footer.nb-footer .copyright p {
   padding: 0;
 }
 
-.fs-0 {
-  font-size: 2.8rem;
-}
 .loading-screen {
   display: flex;
   justify-content: center;
