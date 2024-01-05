@@ -24,7 +24,10 @@ function FloatingActionButton({ data }) {
         class=" btn-lg my-1 rounded-circle primaryButton"
         onClick={randomizeColor}
       >
-        <CustomIcon url="src/assets/paint.svg" title="Change theme" />
+        <CustomIcon
+          url="https://svgshare.com/i/11du.svg"
+          title="Change theme"
+        />
       </Button>
       <Button
         class=" btn-lg my-1 rounded-circle primaryButton"
@@ -33,7 +36,10 @@ function FloatingActionButton({ data }) {
           window.open(data().Drawer.ResumeLink, "_blank");
         }}
       >
-        <CustomIcon title="Download Resume" url="src/assets/resume.svg" />
+        <CustomIcon
+          title="Download Resume"
+          url="https://svgshare.com/i/11fn.svg"
+        />
       </Button>
       {isVisible() && (
         <Button

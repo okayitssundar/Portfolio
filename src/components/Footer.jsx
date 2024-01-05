@@ -33,7 +33,7 @@ function Footer({ data }) {
         <div class="row">
           <div class="col-sm-12">
             <div class="about">
-              <Show when={true}>
+              <Show when={data().Footer.ImageUrl !=""}>
                 <img
                   src={data().Footer.ImageUrl}
                   onerror="this.parentNode.removeChild(this)"

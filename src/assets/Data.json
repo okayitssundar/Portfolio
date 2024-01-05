@@ -9,7 +9,7 @@
     "ResumeLink": "https://gist.github.com/okayitssundar/34997f2b240fa60bbc977cbc64c18ab1/raw/4c6eeaad3092371654d7f31d3db0faafe925c02b/SundarPrakash_resume.pdf"
   },
   "Home": {
-    "Avatar": "https://w0.peakpx.com/wallpaper/133/138/HD-wallpaper-sasuke-uchiha-electric-blue-magenta-boruto-naruto-next-generation-anime-anas-ahmed-edits-naruto-boruto-sasuke-susanoo.jpg",
+    "Avatar": "https://i.ibb.co/Fs1nVDK/DSC-9897-Edited.png",
     "Greetings": "Hi, I'm Sundar 👋",
     "Description": "I'm a passionate web developer with expertise in front-end development and UI/UX design. I love crafting beautiful and intuitive user experiences that make a difference.",
     "ButtonText": "Learn More"
@@ -17,7 +17,6 @@
   "About": {
     "Description": "I have a strong background in computer science and several years of professional experience in web development. I am proficient in various technologies and frameworks, including HTML5, CSS3, JavaScript, and React.js. My goal is to create high-quality, scalable, and performant web applications that meet the clients' needs.",
     "Timeline": [
-      
       {
         "Time": "2022 - Present",
         "Title": "Full Stack Developer",
@@ -42,78 +41,85 @@
   },
   "Skills": [
     {
+      "ImageUrl": "https://svgshare.com/i/11e5.svg",
+      "Title": "Flutter",
+      "Description": "Mastering Flutter, I engineer captivating cross-platform mobile apps that transcend boundaries. Proficient in Dart, I specialize in crafting sleek interfaces and integrating cutting-edge features. My expertise ensures top-tier, visually stunning, and high-performing mobile solutions that captivate users from the first touch.",
+      "ButtonText": "Learn More",
+      "ButtonLink": "https://docs.flutter.dev/"
+    },
+    {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png",
       "Title": "HTML5",
       "Description": "Proficient in writing semantic HTML markup and ensuring accessibility and cross-browser compatibility. Familiar with the latest HTML5 features and best practices.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#html-projects"
+      "ButtonLink": "https://www.w3schools.com/html/"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
       "Title": "CSS3",
       "Description": "Strong knowledge of CSS3 and modern CSS frameworks. Skilled in creating responsive layouts, animations, and styling web applications to deliver an exceptional user experience.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#css-projects"
+      "ButtonLink": "https://www.w3schools.com/css/default.asp"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       "Title": "JavaScript",
       "Description": "Extensive experience in JavaScript and its frameworks/libraries like React.js and Vue.js. Proficient in writing clean, modular, and maintainable code to implement complex functionality.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#javascript-projects"
+      "ButtonLink": "https://www.w3schools.com/js/default.asp"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
       "Title": "React.js",
       "Description": "Skilled in building responsive and interactive web applications using React.js. Experienced in working with React components, state management, and integrating external APIs.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://react.dev/learn"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Logo_SolidJS.svg/2560px-Logo_SolidJS.svg.png",
       "Title": "Solid.js",
       "Description": "SolidJS expert creating seamless web experiences through reactive programming and component-based architecture. Pushing the boundaries of modern web development.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://www.solidjs.com/docs/latest"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
       "Title": "Nodejs",
       "Description": "Masterful Node.js developer crafting powerful and scalable server-side solutions. Expertise in building high-performance applications with real-time capabilities and seamless data integration.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://nodejs.org/en/docs"
     },
     {
       "ImageUrl": "https://w7.pngwing.com/pngs/477/472/png-transparent-node-js-javascript-react-logo-express-js-javascript-logo-text-trademark-rectangle.png",
       "Title": "Expressjs",
       "Description": "Skilled in Express.js development, creating fast and efficient web applications. Proficient in routing, middleware integration, and database connectivity for building scalable and robust server-side solutions.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://expressjs.com/"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
       "Title": "Python",
       "Description": "Python aficionado adept at crafting elegant and efficient solutions. Experienced in web development, data analysis, and automation, delivering robust and scalable applications with finesse.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://docs.python.org/3/"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png",
       "Title": "C",
       "Description": "Skilled in C programming with a passion for creating reliable and efficient solutions. Experienced in developing software applications and problem-solving. Strong understanding of data structures, algorithms, and memory management.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://www.w3schools.com/c/"
     },
     {
       "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
       "Title": "Flask",
       "Description": "Experienced in Flask web development, creating dynamic and scalable applications. Proficient in building RESTful APIs, database integration, and implementing robust authentication and authorization mechanisms.",
       "ButtonText": "Learn More",
-      "ButtonLink": "#react-projects"
+      "ButtonLink": "https://flask.palletsprojects.com/en"
     }
   ],
   "Footer": {
-    "ImageUrl": "path/to/footer-image.png",
+    "ImageUrl": "",
     "Description": "Welcome to my portfolio website! Here, you'll find a showcase of my projects, skills, and experience in the field of web development. Feel free to explore and get in touch if you have any questions or inquiries.",
     "SocialMedia": [
       {
