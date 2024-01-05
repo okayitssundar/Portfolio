@@ -74,7 +74,7 @@ function About() {
   };
 
   return (
-    <div id="Contact" class="my-5">
+    <section id="Contact" class="my-5">
       <h1 class="text-center">
         <span class="active">Contact</span>
       </h1>
@@ -162,7 +162,7 @@ function About() {
           {!isSolved() ? "Verify yourself" : "Say Hi 👋"}
         </Button>
       </Form>
-    </div>
+    </section>
   );
 }
 export default About;

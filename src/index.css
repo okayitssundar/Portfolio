@@ -141,11 +141,13 @@ body {
 .brightbackground {
   background-color: rgba(197, 197, 197, 0.11) !important;
 }
-.scroll-to-top {
+.floating-action-buttons {
+  display: flex;
+  flex-direction: column;
   position: fixed;
   z-index: 1;
   bottom: 25px;
-  right: 25px;
+  right: 10px;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

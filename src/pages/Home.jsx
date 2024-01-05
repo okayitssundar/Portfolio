@@ -2,7 +2,7 @@ import { theme } from "../assets/theme/colors";
 import { Button } from "solid-bootstrap";
 function Home({ data }) {
   return (
-    <div
+    <section
       id="Home"
       class="d-flex align-items-center justify-content-center flex-column"
     >
@@ -35,7 +35,7 @@ function Home({ data }) {
       >
         {data().Home.ButtonText}
       </Button>
-    </div>
+    </section>
   );
 }
 export default Home;

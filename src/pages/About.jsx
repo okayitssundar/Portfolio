@@ -4,7 +4,7 @@ import { For } from "solid-js";
 
 function About({ data }) {
   return (
-    <div id="About" class="my-5">
+    <section id="About" class="my-5">
       <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">
         <span class="active">About</span>
       </h1>
@@ -29,7 +29,7 @@ function About({ data }) {
           </For>
         </TimelineContainer>
       </div>
-    </div>
+    </section>
   );
 }
 export default About;

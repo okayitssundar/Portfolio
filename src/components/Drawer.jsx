@@ -59,27 +59,6 @@ function Drawer({ data }) {
                 </Nav.Link>
               )}
             </For>
-
-            <NavDropdown
-              title={<span class="accent">More</span>}
-              id="basic-nav-dropdown"
-            >
-              <NavDropdown.Item
-                onClick={randomizeColor}
-                class="accent"
-                href="#action/3.1"
-              >
-                Change Color
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item
-                class="accent"
-                href={addProtocol(data().Drawer.ResumeLink)}
-                target="_blank"
-              >
-                Download Resume
-              </NavDropdown.Item>
-            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -88,3 +67,4 @@ function Drawer({ data }) {
 }
 
 export default Drawer;
+

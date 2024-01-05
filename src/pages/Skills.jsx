@@ -3,7 +3,7 @@ import Cards from "../components/Cards";
 
 function Skills({ data }) {
   return (
-    <div id="Skills" class="my-5">
+    <section id="Skills" class="my-5">
       <h1 class="text-center my-5">
         <span class="active">Skills</span>
       </h1>
@@ -19,7 +19,7 @@ function Skills({ data }) {
           )}
         </For>
       </div>
-    </div>
+    </section>
   );
 }
 

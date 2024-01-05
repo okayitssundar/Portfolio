@@ -1,8 +1,9 @@
 import { Button } from "solid-bootstrap";
 import { createSignal, onCleanup, onMount } from "solid-js";
-import { ArrowUp } from "./Icons";
+import { ArrowUp, CustomIcon } from "./Icons";
+import { randomizeColor } from "../assets/theme/colors";
 
-function ScrollToTopBtn() {
+function FloatingActionButton({ data }) {
   const [isVisible, setIsVisible] = createSignal(false);
   const handleScroll = () => {
     setIsVisible(window.pageYOffset > 100);
@@ -18,19 +19,31 @@ function ScrollToTopBtn() {
     });
   });
   return (
-    <>
+    <div class="floating-action-buttons">
+      <Button
+        class=" btn-lg my-1 rounded-circle primaryButton"
+        onClick={randomizeColor}
+      >
+        <CustomIcon url="src/assets/paint.svg" title="Change theme" />
+      </Button>
+      <Button
+        class=" btn-lg my-1 rounded-circle primaryButton"
+        onClick={() => {
+          console.log(data().Drawer.ResumeLink);
+          window.open(data().Drawer.ResumeLink, "_blank");
+        }}
+      >
+        <CustomIcon title="Download Resume" url="src/assets/resume.svg" />
+      </Button>
       {isVisible() && (
         <Button
-          class=" btn-lg scroll-to-top rounded-circle primaryButton"
+          class=" btn-lg my-1 rounded-circle primaryButton"
           onClick={scrollToTop}
         >
           <ArrowUp />
         </Button>
       )}
-      {/* <Button class="scroll-to-top" onClick={randomizeColor}>
-        color
-      </Button> */}
-    </>
+    </div>
   );
 }
 
@@ -82,4 +95,4 @@ function setFavicon(url) {
   });
 }
 
-export { ScrollToTopBtn, initScrollspy, addProtocol, setFavicon };
+export { FloatingActionButton, initScrollspy, addProtocol, setFavicon };

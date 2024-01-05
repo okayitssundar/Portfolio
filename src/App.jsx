@@ -3,7 +3,7 @@ import { randomizeColor, theme } from "./assets/theme/colors";
 import Drawer from "./components/Drawer";
 import { About, Contact, Home, Skills } from "./pages";
 import {
-  ScrollToTopBtn,
+  FloatingActionButton,
   addProtocol,
   initScrollspy,
   setFavicon,
@@ -23,6 +23,8 @@ function App() {
   onMount(() => {
     aos.init();
     randomizeColor();
+
+    // Listen for scroll events
   });
   createEffect(() => {
     // Effect code
@@ -49,7 +51,7 @@ function App() {
         }
       >
         <Drawer data={data} />
-        <ScrollToTopBtn />
+        <FloatingActionButton data={data} />
         <div
           data-bs-spy="scroll"
           data-bs-offset="0"
@@ -57,10 +59,12 @@ function App() {
           data-bs-target=".drawer"
           id="App"
         >
-          <Home data={data} />
-          <About data={data} />
-          <Skills data={data} />
-          <Contact data={data} />
+          <main>
+            <Home data={data} />
+            <About data={data} />
+            <Skills data={data} />
+            <Contact data={data} />
+          </main>
         </div>
         <Footer data={data} />
       </Show>
