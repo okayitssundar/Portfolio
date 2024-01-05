@@ -13,6 +13,7 @@ export default function Cards(props) {
     >
       <Show when={ImageUrl}>
         <img
+          alt={Title}
           class="card-img fit-contain"
           variant="top"
           height="60px"

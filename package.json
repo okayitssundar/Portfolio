@@ -17,6 +17,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "scroll-out": "^2.2.12",
+    "sitemap": "^7.1.1",
     "solid-bootstrap": "^1.0.13",
     "solid-icons": "^1.0.7",
     "solid-js": "^1.6.10"

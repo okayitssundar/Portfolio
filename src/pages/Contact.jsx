@@ -75,9 +75,9 @@ function About() {
 
   return (
     <section id="Contact" class="my-5">
-      <h1 class="text-center">
+      <h2 class="text-center">
         <span class="active">Contact</span>
-      </h1>
+      </h2>
       <Form
         onsubmit={handleSubmit}
         class="brightborder brightbackground p-4 w-100 w-lg-50 my-5"

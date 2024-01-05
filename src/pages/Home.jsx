@@ -9,12 +9,13 @@ function Home({ data }) {
       <img
         width="120"
         height="120"
+        alt="Sundar Prakash Profile Picture"
         onerror="this.parentNode.removeChild(this)"
         class="avatar fadeTransition"
         src={data().Home.Avatar}
       />
       <p class="py-3 opacity-4 accent">{data().Home.Greetings}</p>
-      <h1
+      <h2
         data-aos="fade-up"
         data-aos-duration="1500"
         style={{
@@ -27,7 +28,7 @@ function Home({ data }) {
         class="py-1 accent text-fill-transparent text-center"
       >
         {data().Home.Description}
-      </h1>
+      </h2>
       <Button
         onClick={() => (location.hash = "#About")}
         class="mt-4 primaryButton"

@@ -5,9 +5,9 @@ import { For } from "solid-js";
 function About({ data }) {
   return (
     <section id="About" class="my-5">
-      <h1 class="text-center" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center" data-aos="fade-up" data-aos-duration="1000">
         <span class="active">About</span>
-      </h1>
+      </h2>
       <Container class="my-5 p-3 " fluid>
         <h4 class="accent" data-aos="zoom-out-up" data-aos-duration="1000">
           {data().About.Description}
